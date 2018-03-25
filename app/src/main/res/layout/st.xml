@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+         >
+          <TableLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:stretchColumns="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rajkamal Stationary"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="K P  Stores"/>
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="BNB Enterprise"
+                  android:layout_margin="16dp"/>
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Meenakshi Stationary"
+                  android:layout_margin="16dp"/>
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Manish Stationary"
+                  android:layout_margin="16dp"/>
+    </TableLayout>
+    </ScrollView>
+
